@@ -1,0 +1,22 @@
+{
+    "name": "qsl/mentiontest1",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.9",
+        "phpstan/phpstan-phpunit": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qsl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "qsl"
+        }
+    ],
+    "require": {
+        "mention/kebab": "^1.3"
+    }
+}
